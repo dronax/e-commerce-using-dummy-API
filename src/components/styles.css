@@ -1,0 +1,49 @@
+.nav{
+    background-color: turquoise;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.items{
+    /* height:340px;
+    width: 300px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    border: 1px solid grey;
+    margin-top: 5px;
+
+}
+.prodimage{
+    height: 190px;
+    width: 190px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.title{
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.price{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+.addcart{
+    background-color: bisque;
+    width: 200px;
+    margin-left: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.addcart :hover{
+    
+}
