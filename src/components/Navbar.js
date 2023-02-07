@@ -6,13 +6,13 @@ const Navbar = () => {
     const navigate=useNavigate()
   return (
     <div className="nav">
-      <div className="Home" onClick={() => navigate("/")}>
+      <div className="Home navb" onClick={() => navigate("/")}>
         Home
       </div>
-      <div className="About" onClick={() => navigate("/about")}>
+      <div className="About navb" onClick={() => navigate("/about")}>
         About
       </div>
-      <div className="cart" onClick={() => navigate("/cart")}>
+      <div className="cart navb" onClick={() => navigate("/cart")}>
         My Cart
       </div>
     </div>

@@ -14,7 +14,7 @@ const Cart = () => {
   return (
     <div>
       {items.map((item) => (
-        <div className="outercard">
+        <div className="outercard" key={item.id}>
           <div className="card">
             <div className="prodimagee">
               <img src={item.image} className="prodimage" alt="prodimage"></img>

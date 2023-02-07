@@ -4,6 +4,10 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
+
+}
+.navb{
+    cursor: pointer;
 }
 .items{
     /* height:340px;
